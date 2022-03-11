@@ -1,0 +1,39 @@
+* HOME
+home__social
+https://www.linkedin.com/
+https://github.com/
+
+
+home__description
+Here I will put my description
+
+
+* ABOUT
+about__description
+full time student 
+
+about__info-name
+Completed <br> project
+Companies <br> worked
+
+
+
+
+* PORTFOLIO
+portfolio__description
+Here I will put my portfolio__description
+
+
+* PROJECT
+project__description
+
+
+
+
+* FOOTER
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+
