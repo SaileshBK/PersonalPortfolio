@@ -23,6 +23,7 @@
   /*===== z index =====*/
   --z-back: -10;
   --z-fixed: 100;
+  
 }
 
 @media screen and (min-width: 968px) {
@@ -119,7 +120,12 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: #DADADA;
-  box-shadow: 0 1px 4px rgba(46, 61, 76, 0.5);
+  box-shadow: 0 1px 5px rgba(46, 61, 76, 0.5);
+  background-image: url("head7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
 
   
   
@@ -324,7 +330,7 @@ img {
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: green;
 }
 
 .skills__names {
@@ -367,7 +373,9 @@ img {
 
 
 .skills__img {
-  border-radius: .5rem;
+  border-radius: .9rem;
+  height: 30rem;
+  width: 50rem;
 }
 
 /* ===== projects =====*/
