@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="assets/css/styles.css">
+
+
+        <!-- =====swiper css===== -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
 
+
+        
+        
+        
+
+
         <title>Portfolio website complete</title>
     </head>
     <body>
+
+       
         <!--===== HEADER =====-->
         <header class="l-header">
+            
             <nav class="nav bd-grid">
                 <div>
                     <img src="assets/img/Sailesh-logos_black.png" class="nav__logo">
                 </div>
+                
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -102,7 +117,7 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Programming Skills</h2>
-                        <p class="skills__text">These are my Programming skills</p>
+                        <p class="skills__text">These are my Programming skills :</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-python skills__icon'></i>
@@ -179,9 +194,6 @@
                     
                 </div>
 
-
-
-
                 
             </section>
 
@@ -195,8 +207,8 @@
                         <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>          
                     <div>
-                        <h2 class="skills__subtitle">professional Skills</h2>
-                        <p class="skills__text">These are my professional skills</p>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">These are my professional skills :</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxs-network-chart skills__icon'></i>
@@ -248,46 +260,66 @@
                     
                     
                 </div>
-
-
-
-
-
-
-                
+     
             </section>
-
-
-
-
-
 
 
             <!--===== projects =====-->
             <section class="projects section" id="projects">
                 <h2 class="section-title">Projects</h2>
 
-                <div class="project__container bd-grid">
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="projects__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
+
+                <div class="projects__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+            
+                        <!--===== projects 1 =====-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/work1.jpg" alt="" class="projects__img">
+                            <br>
+                            
+                            
+                            
+                        
+                        </div>
+                        <!--===== projects 2 =====-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/work2.jpg" alt="" class="projects__img">
+                            <div class="projects__data">
+                                <br>
+    
+                                
+
+                            </div>
+                        
+                        </div>
+                        <!--===== projects 3 =====-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/work3.jpg" alt="" class="projects__img">
+                            
+
+                                
+                                
+                                
+
+                            
+                        </div>
+
+                    </div>
+                    <!--===== add arrows and to swiper =====-->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <br>
+
+                    <div class="swiper-pagination"></div>
                 </div>
+
+                
             </section>
+
+            
+
+
+
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -310,6 +342,7 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
+            
             <p class="footer__title">Sailesh</p>
             <div class="footer__social">
                 
@@ -326,6 +359,10 @@
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
+
+
+        <!--===== Swiper js =====-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
