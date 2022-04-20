@@ -1,4 +1,4 @@
-# SaileshBK.github.io
+# PersonalPortfolio
 This is a project that is based on HTML, CSS and JavaScript.I choose to do this project because I think a personal portfolio website is a much-needed factor for all the students who are in search of internships or job. Since your portfolio shows the compilation of relevant work samples and documents gathered during your school years, it is necessary tool to show your beliefs, skills, qualifications, education, training and experiences.
 
 ![1](https://user-images.githubusercontent.com/101400043/163737944-9b78762f-f709-4083-b401-6f23eea5d6c0.PNG)
